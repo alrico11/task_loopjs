@@ -66,7 +66,7 @@ let isi
 
 const objLoop2 = {
     arrLoop: [],
-    pushArr: function (value, value1, isiArr) {
+    pushArr: function (isiArr) {
         isi = isiArr
         objLoop2.arrLoop.push(isi)
         console.log(objLoop2.arrLoop[0])
@@ -78,5 +78,5 @@ const objLoop2 = {
         }
     }
 }
-objLoop2.pushArr(0, 10, ["Makan", "Tahu", "Sama", "Tempe"])
+objLoop2.pushArr(["Makan", "Tahu", "Sama", "Tempe"])
 objLoop2.callAllArray(0)
